@@ -33,10 +33,10 @@ The structure of this depends on the tool you have chosen but a base structure f
   + FOLDER *model*
     - FILE: duplex or something else (ifc)
   + FOLDER *input* (examples given below)
-    - FILE: excel data for instance // could also be assumption data
+  >  - FILE: excel data for instance // could also be assumption data
     - FILE: material cost data in json format?
   + FOLDER: *output*
-    - FILE: this is if the output for your tool is a file, for instance an excel file.
+ >   - FILE: this is if the output for your tool is a file, for instance an excel file.
   - FILE: main.py // you may also have other python files in there, but make sure you start from main.py
   - other python files folders and code as required.
   
@@ -72,7 +72,7 @@ Therefore, the core of the assignment is to produce a readme.md in markdown for 
 Assignment should include
 Report (documenting sections 1-10)
 Readme.md
-Information exchange excel sheet (for section 4): Use_case_INFX_Team_XX.xlsx
+> Information exchange excel sheet (for section 4): Use_case_INFX_Team_XX.xlsx
 IDM diagrams:
 1.	BPMN file of current use case (as implemented by you) + 
 2.	BPMN file of the use case with additional/modified improved functions (which you would like to see implemented) 
@@ -97,13 +97,13 @@ You should produce a report written in markdown. The contents of the report are 
 3. Process: model the process diagram from your use case in BPMN.io please remember to save the .bpmn file and you can save a .svg file that you can insert into your report. 
 4. description of the process of your tool / workflow.
 
-### 3C: Information exchange
+> [Removed from delivery in this assignment]### 3C: Information exchange
 
-5. Information Exchange: Fill out the excel template with the information for your planned tool / workflow. For this you will need access to the excel, and the Dikon document to help you specify the LOD (LOR,LOG,LOI) for each element you need for you tool / workflow. This can get confusing - don’t worry we can help 😊
-6. IFC: Describe the IFC entities and properties for each of the elements you identified in your information exchange. Describe the data that you need to:
-	* Find in the IFC
-	* Find in an external sources i.e. BR18
-	* Based on assumptions (useful when we don't have the 'real' data that we need for our tool)
+> 5. Information Exchange: Fill out the excel template with the information for your planned tool / workflow. For this you will need access to the excel, and the Dikon document to help you specify the LOD (LOR,LOG,LOI) for each element you need for you tool / workflow. This can get confusing - don’t worry we can help 😊
+> 6. IFC: Describe the IFC entities and properties for each of the elements you identified in your information exchange. Describe the data that you need to:
+> 	* Find in the IFC
+> 	* Find in an external sources i.e. BR18
+> 	* Based on assumptions (useful when we don't have the 'real' data that we need for our tool)
 
 ### 3D: Value What is the potential improvement offered by this tool?
 
@@ -119,8 +119,7 @@ This is the common question when developing tools and processes as an [intrapren
 Requirements:
 + [x] **Markdown-formated report: Describing your tool/workflow: upload link to your Github report on Learn**
 
-The report should link to or include:
-- [x] An information exchange sheet  
+The report should link to or include: 
 - [x] Two IDM-diagrams
 - [x] IFC model for the use case before the remodelling
 - [x] IFC model for the use case after the remodelling
