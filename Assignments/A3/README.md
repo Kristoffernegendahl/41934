@@ -97,10 +97,10 @@ You should produce a report written in markdown. The contents of the report are 
 3. Process: model the process diagram from your use case in BPMN.io please remember to save the .bpmn file and you can save a .svg file that you can insert into your report. 
 4. description of the process of your tool / workflow.
 
-### 3C: Information exchange
+> [Removed from delivery in this assignment] ### 3C: Information exchange
 
-5. Information Exchange: Fill out the excel template with the information for your planned tool / workflow. For this you will need access to the excel, and the Dikon document to help you specify the LOD (LOR,LOG,LOI) for each element you need for you tool / workflow. This can get confusing - don’t worry we can help 😊
-6. IFC: Describe the IFC entities and properties for each of the elements you identified in your information exchange. Describe the data that you need to:
+> 5. Information Exchange: Fill out the excel template with the information for your planned tool / workflow. For this you will need access to the excel, and the Dikon document to help you specify the LOD (LOR,LOG,LOI) for each element you need for you tool / workflow. This can get confusing - don’t worry we can help 😊
+> 6. IFC: Describe the IFC entities and properties for each of the elements you identified in your information exchange. Describe the data that you need to:
 	* Find in the IFC
 	* Find in an external sources i.e. BR18
 	* Based on assumptions (useful when we don't have the 'real' data that we need for our tool)
